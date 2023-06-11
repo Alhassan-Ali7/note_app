@@ -50,7 +50,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
             maxLines: 5,
           ),
           const SizedBox(
-            height: 40,
+            height: 20,
           ),
           const ColorsListView(),
           const SizedBox(
