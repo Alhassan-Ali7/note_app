@@ -65,6 +65,8 @@ class _AddNodeFormState extends State<AddNodeForm> {
             onTap: (){
               if(formKey.currentState!.validate()){
                 formKey.currentState!.save();
+
+
               }else{
                 autoValidateMode = AutovalidateMode.always;
                 setState(() {
